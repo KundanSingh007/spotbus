@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import GoogleMap from "./components/GoogleMap";
+import { GoogleApiWrapper } from 'google-maps-react';
+import SelectRoute from "./components/SelectRoute";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <h2>SPOTBUS BY KUNDAN SINGH</h2>
+
+        <h2>Admin Dashboard</h2>
+        <hr />
+        <SelectRoute />
+
+      </div>
+      <GoogleMap />
     </div>
+
   );
 }
 
-export default App;
+export default GoogleApiWrapper({
+  apiKey: ("AIzaSyACcLnz8fYay9wHpTaZBhBG5 - g2wQ3y2vo")
+})(App);
