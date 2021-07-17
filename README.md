@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+It is like a Bus Stop locator where student need to pick from their home, the Google api and Place Api is used in this so that it will map and connect all the student address so that the School authority will easily detected where the student pick up point is in the GOOGLE MAP.
+React, Material Ui, css and google cloud features has been used in this web app.
+API added in this project is no longer working , so please add your own.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Thanks and Happy Hacking..:D
